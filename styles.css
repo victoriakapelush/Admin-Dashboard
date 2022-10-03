@@ -166,3 +166,15 @@ span svg {
     display: flex;
     justify-content: flex-end;
 }
+
+.announcements p {
+    border: 1px black solid;
+}
+
+.tegan, .morgan, .kendall, .alex {
+    display: flex;
+}
+
+.tegan-div, .morgan-div, .kendall-div, .alex-div {
+    display: grid;
+}

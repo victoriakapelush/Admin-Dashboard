@@ -207,7 +207,8 @@ span svg {
 
 .announcements p, .trending p {
     font-size: 14px;
-    margin: 0;
+    margin: 3px 3px;
+    
 }
 
 .two-titles {
@@ -224,14 +225,17 @@ span svg {
     justify-content: flex-end;
 }
 
-.announcements p {
-    border: 1px black solid;
-}
-
 .tegan, .morgan, .kendall, .alex {
     display: flex;
+    align-items: center;
 }
 
 .tegan-div, .morgan-div, .kendall-div, .alex-div {
     display: grid;
+}
+
+hr {
+    width: 200px;
+    height: 0px;
+    border: 1px dashed grey;
 }

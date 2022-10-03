@@ -162,3 +162,7 @@ span svg {
     margin-right: 150px;
 }
 
+.three-svg {
+    display: flex;
+    justify-content: flex-end;
+}
